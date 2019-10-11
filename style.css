@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|El+Messiri|Montserrat+Alternates&display=swap');
+*{
+    margin:0;
+}
+a:hover{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    font-family: 'Chilanka', cursive;
+    font-size: 40px;
+    margin-bottom: 50px;
+    background: #ca0202;
+}
+span{
+    color: #fa2104;
+    font-family: 'Chilanka', cursive;
+}
+.butn{
+    border: 1px solid #000000;
+    color: #fff;
+    padding: 5px 10px;
+    transition: .5s;
+    background: #ff0101;
+}
+.butn:hover{
+    background: #02b360;
+}
+
+
+/*=================== INDEX HEADING =================== */
+.menu-icon{
+    display: none;
+}
+.menu-icon i{
+    float: right;
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.menu i{
+    display: none;
+    float: right;
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.header-top{
+    background: #10b8a1;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+.menu{
+    float: right;
+}
+.menu ul li a.active{
+   color: #fff;
+}
+.menu ul li{
+    padding: 17px;
+    border-right: 2px solid #fff;
+}
+.menu ul li a{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    transition: .2s;
+}
+.menu ul li a:hover{
+    color: #fff;
+}
+
+/* ================= BLOG BODY ================= */
+#blog-body{
+    background: #dddddc;
+    padding: 50px 0;
+}
+#blog-body img{
+    width: 100%;
+    height: auto;
+}
+#blog-body article{
+    overflow: hidden;
+}
+article img{
+    transition: .5s;
+}
+article:hover img{
+    transform: scale(1.05);
+}
+
+.section-text{
+    padding: 20px 0;
+}
+.section-text p{
+    text-align: justify;
+    color: #000;
+}
+
+
+/*=================== COURSE BODY  ===================*/
+#course-body{
+    padding: 50px 0;
+    background: #46c2c277;
+}
+#course-body .card{
+    border: 2px solid #eb0000;
+    transition: .5s;
+}
+#course-body .card:hover{
+    box-shadow: 0 0 10px #000;
+    /* transform: scale(1.02); */
+    border: 2px none;
+}
+#course-body h5{
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    transition: .3s;
+    font-size: 20px;
+    background: #10b8a1;
+}
+#course-body p{
+    padding: 8px;
+    font-size: 15px;
+    color: #000;
+    text-align: justify;
+}
+
+/*================== CONTACT BODY  ==================*/
+#contact-body{
+    background: url(imgs/contact\ f.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+#contact-body h3{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid #c40909;
+    font-family: 'Chilanka', cursive;
+}
+#contact-body label{
+    color: #fff;
+}
+#contact-body .sign-up form{
+    /* background: #0ab1c78a; */
+    padding: 30px;
+    margin: 0 auto;
+}
+#contact-body .sign-in{
+    margin: 0 30px;
+}
+#contact-body .sign-in form{
+    /* background: #09cae4c2; */
+    padding: 40px 20px;
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+/*=================== Footer ==================== */
+#footer-area{
+    background: #cacacade;
+    padding: 30px 0;
+    overflow: hidden;
+}
+#footer-area .socile ul{
+
+}
+#footer-area .socile ul li{
+    padding: 8px;
+    
+}
+#footer-area .socile ul li a{
+    font-size: 20px;
+    background: #fa0202;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    transition: .5s;
+    border: 1px solid #000;
+}
+#footer-area .socile ul li a:hover{
+    background: #02b360;
+}
+#footer-area .it-logo p{
+    padding: 10px 0;
+    margin: 0;
+}
+#footer-area .add p{
+    color: #fa2104;
+    font-size: 20px;
+    font-weight: bold;
+}
+#footer-area .add{
+    padding-top: 30px;
+}
+
+#footer-contact{
+    background: #ca0202;
+    padding: 10px 0;
+}
+#footer-contact span{
+    color: #fff;
+    font-size: 20px;
+}
+#footer-contact p{
+    margin: 0;
+    color: #e0a5a6;
+    font-size: 14px;
+    text-align: center;
+}
+#footer-contact p i{
+    color: #fff;
+}
+/*==================== INDEX ITEM ENDS  ====================*/
+
+
+
+/*================== SERVICE ITEM  ==================*/
+#service-body{
+    padding: 40px 0;
+    /* background: #c5c5c5; */
+}
+#service-body img{
+    width: 100%;
+    height: auto;
+    border: 1px solid #c40909;
+}
+.work-item{
+    margin-bottom: 30px;
+}
+.work-button{
+    padding: 20px 0;
+    text-align: center;
+}
+.work-button button{
+    background: transparent;
+    border: 1px solid #000;
+    color: #e25439;
+    border-radius: 2px;
+    transition: .5s;
+}
+.work-button button:hover{
+    background: #1d3fd4;
+    color: #fff;
+}
+.work-button button.active{
+    background: #e25439;
+    color: #fff;
+}
+/*==================== SERVICE ITEM ENDS  ====================*/
+
+
+/*=================== OUR TEAM MEMBER  ===================*/
+#team-body{
+    padding: 50px 0;
+}
+.team-member-img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.team-member-img img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.team-member-text{
+    margin: 0 5px;
+    text-align: center;
+}
+.owl-nav{
+    display: none;
+}
+#team-body .owl-dots{
+    text-align: center;
+}
+#team-body .owl-dots .owl-dot{
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background: #454444 !important;
+}
+#team-body .owl-dots .owl-dot:first-child{
+   margin-left: 0 !important;
+}
+#team-body .owl-dots .owl-dot:last-child{
+   margin-right: 0 !important;
+}
+#team-body .owl-dots .owl-dot.active{
+    background: #e25439 !important;
+}
+
+#course-body .text-center{
+    border: 1px solid #790505;
+    border-radius: 0;
+    transition: .5s;
+}
+#course-body .text-center:hover{
+    border: 0;
+    box-shadow: 0 5px 15px #0009;
+    transform: scale(1.05);   
+}
+
+/*==================== OUR TEAM ITEM ENDS  ====================*/
+
+
+
+
+/*==================== CONTACT ITEM  ====================*/
+.cont{
+    margin: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+/*==================== Scroll Top ARROW  ====================*/
+
+.arrows{
+    display: none;
+}
+
+.arrows .top{
+    float: right;
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    width: 55px;
+    height: 55px;
+    border-radius: 500px;
+    cursor: pointer;
+}
+
+.arrowss .mess{
+    float: left;
+    position: fixed;
+    bottom: 15px;
+    left: 25px;
+    width: 55px;
+    height: 55px;
+    z-index: 99;
+    cursor: pointer;
+}
